@@ -1,7 +1,5 @@
 package aws.s3;
 
-import java.io.File;
-
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
@@ -10,6 +8,7 @@ public class Arquivo {
 	@NotNull
 	private Long id;
 	
+	@NotNull
 	private byte[] file;
 	
 	@NotBlank
